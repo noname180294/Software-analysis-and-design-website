@@ -5,6 +5,7 @@ import CustomCarousel from '../components/CustomCarousel';
 import carousel_1 from '../assets/carousel/carousel_1.jpg'
 import carousel_2 from '../assets/carousel/carousel_2.jpg'
 import carousel_3 from '../assets/carousel/carousel_3.jpg'
+import { RandomizedTextEffect } from '../utils/text-randomized'
 
 const slidesData = [
   {
@@ -29,6 +30,9 @@ const Home = () => {
     <>
       <Navbar />
       <div>
+        <h1 className='font-departure text-4xl relative z-10 text-center h-[120px] md:h-auto leading-tight mt-5'>
+          <RandomizedTextEffect text='Welcome to The Freelance IT Platform' />
+        </h1>
         <CustomCarousel slides={slidesData} interval={4000} />
       </div>
       <Footer />
