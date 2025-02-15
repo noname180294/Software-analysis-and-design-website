@@ -31,7 +31,7 @@ const Home = () => {
       <Navbar />
       <div>
         <h1 className='font-departure text-4xl relative z-10 text-center h-[120px] md:h-auto leading-tight mt-5'>
-          <RandomizedTextEffect text='Welcome to The Freelance IT Platform' />
+          <RandomizedTextEffect text='Welcome to The Freelance IT Platform!' />
         </h1>
         <CustomCarousel slides={slidesData} interval={4000} />
       </div>
