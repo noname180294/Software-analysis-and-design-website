@@ -9,18 +9,18 @@ import carousel_3 from '../assets/carousel/carousel_3.jpg'
 const slidesData = [
   {
     image: carousel_1,
-    heading: 'Tiêu đề Slide 1',
-    text: 'Nội dung mô tả cho Slide 1.'
+    heading: 'The Freedom of Freelance IT',
+    text: 'Work on your own terms and choose projects that excite you.'
   },
   {
     image: carousel_2,
-    heading: 'Tiêu đề Slide 2',
-    text: 'Nội dung mô tả cho Slide 2.'
+    heading: 'Building a Successful IT Career',
+    text: 'Grow your skills, expand your network, and secure high-paying clients.'
   },
   {
     image: carousel_3,
-    heading: 'Tiêu đề Slide 3',
-    text: 'Nội dung mô tả cho Slide 3.'
+    heading: ' Overcoming Challenges as a Freelancer',
+    text: 'Manage time effectively, handle client expectations, and ensure steady income.'
   }
 ];
 
