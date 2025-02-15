@@ -23,16 +23,16 @@ const Navbar = () => {
               <Link className="nav-link active" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+              <Link className="nav-link" to="/about">About</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+              <Link className="nav-link" to="/services">Services</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+              <Link className="nav-link" to="/contact">Contact</Link>
             </li>
           </ul>
-          <form className="d-flex" role="search">
+          <form className="d-flex me-auto ms-5" role="search">
             <input
               className="form-control me-2"
               type="search"
@@ -43,6 +43,10 @@ const Navbar = () => {
               Search
             </button>
           </form>
+          <div>
+            <Link to="/login" className="btn btn-outline-light me-2">Log In</Link>
+            <Link to="/signup" className="btn btn-success">Sign Up</Link>
+          </div>
         </div>
       </div>
     </nav>
