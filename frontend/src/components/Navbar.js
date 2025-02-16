@@ -20,16 +20,16 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">Find Job</Link>
+              <Link className="nav-link active" to="/FindJob">Find Job</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">Find talent</Link>
+              <Link className="nav-link active" to="/FindTalent">Find talent</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/services">News</Link>
+              <Link className="nav-link active" to="/News">News</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">Pricing</Link>
+              <Link className="nav-link active" to="/Pricing">Pricing</Link>
             </li>
           </ul>
           <form className="d-flex me-auto ms-5" role="search">
@@ -45,7 +45,7 @@ const Navbar = () => {
           </form>
           <div>
             <Link to="/login" className="btn btn-outline-light me-2">Log In</Link>
-            <Link to="/signup" className="btn btn-success">Sign Up</Link>
+            <Link to="/signup" className="btn btn-outline-success">Sign Up</Link>
           </div>
         </div>
       </div>
