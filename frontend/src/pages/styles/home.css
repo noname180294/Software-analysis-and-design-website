@@ -1,0 +1,11 @@
+.spotlight-container {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .custom-spotlight-card {
+    width: 350px;
+  }
+  

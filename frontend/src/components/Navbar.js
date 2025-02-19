@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../imgs/logo.png';
-import GradientText from '../utilities/GradientText';
-import '../styles/component.css'
+import GradientText from '../utilities/GradientText/GradientText';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
