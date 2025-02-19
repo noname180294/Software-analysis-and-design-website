@@ -2,7 +2,8 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
-
+import Login from './pages/Authenticate/Login'
+import Register from './pages/Authenticate/Register'
 
 // for nav
 import Findtalent from './pages/Navbar/Findtalent';
@@ -22,6 +23,10 @@ function App() {
         <Route path="/find-job" element={<Findjob />} />
         <Route path="/news" element={<News />} />
         <Route path="/pricing" element={<Pricing />} />
+
+        {/* authenticate */}
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,9 +1,12 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Aurora from '../utilities/Aurora/Aurora'
+import { Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Aurora from '../utilities/Aurora/Aurora';
 import SpotlightCard from '../utilities/SpotlightCard/SpotlightCard';
 import SplitText from "../utilities/SplitText/SplitText";
+import StarBorder from '../utilities/StarBorder/StarBorder';
+import GradientText from '../utilities/GradientText/GradientText';
 import { IoIosSearch } from "react-icons/io";
 import { FaDev } from "react-icons/fa";
 import { HiBriefcase } from "react-icons/hi";
@@ -60,29 +63,124 @@ const Home = () => {
           </h3>
         </div>
         
+        <div style={{ position: 'relative', zIndex: 1, textAlign: 'center', paddingTop: '20vh' }}>
+        <button 
+          style={{ background: 'none', border: 'none', cursor: 'pointer' }}
+          onClick={() => {
+            document.getElementById('spotlight')?.scrollIntoView({ behavior: "smooth" });
+          }}
+        >
+          <StarBorder
+            as="button"
+            className="custom-class"
+            color="#00A3FF"
+            speed="5s"
+          >
+            Discover More
+          </StarBorder>
+        </button>
+        </div>
       </div>
 
       <div>
-        <div className="spotlight-container">
-          <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-              <IoIosSearch size={50} color="#fff" />
+        <div id='spotlight' className="spotlight-container">
+          <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)"
+          >
+            <IoIosSearch size={30} color="#fff" />
+            
+            <h3 style={{ color: 'white', margin: '10px 0' }}>
+              Connect with thousands of IT professionals
+            </h3>
+            
+            <h5 style={{ color: 'white', marginBottom: '15px' }}>
+              Find freelancers by skills, experience, and reviews. Get your projects done fast with the best expert!
+            </h5>
+            <div id='spotlight-button'>
+            <Link to="/find-talent" className="text-decoration-none" style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+              <GradientText
+                colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+                animationSpeed={3}
+                showBorder={true}
+                className="custom-class"
+              >
+                Find Talent Now
+              </GradientText>
+            </Link>
+            </div>
           </SpotlightCard>
+        
 
           <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-              <HiBriefcase size={50} color="#fff"  />
+              <HiBriefcase size={30} color="#fff"  />
+            <h3 style={{ color: 'white', margin: '10px 0' }}>
+              Create profile & start receiving projects
+              </h3>
+            
+            <h5 style={{ color: 'white', marginBottom: '15px' }}>
+              Register now, showcase your programming, design, AI, DevOps,... skills and connect with global customers.
+            </h5>
+            <div id='spotlight-button'>
+              <Link to="/find-job" className="text-decoration-none" style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+                <GradientText
+                  colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+                  animationSpeed={3}
+                  showBorder={true}
+                  className="custom-class"
+                >
+                  Find Job Now
+                </GradientText>
+              </Link>
+            </div>
           </SpotlightCard>
           
         </div>    
 
         <div className="spotlight-container">
           <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-              <BiWorld size={50} color="#fff" />
+              <BiWorld size={30} color="#fff" />
+              <h3 style={{ color: 'white', margin: '10px 0' }}>
+              Unlimited career opportunities
+              </h3>
+            
+            <h5 style={{ color: 'white', marginBottom: '15px' }}>
+            From programmers, UI/UX designers to data scientists – Thousands of new jobs posted every day!
+            </h5>
+            <div id='spotlight-button'>
+              <Link to="/news" className="text-decoration-none" style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+                <GradientText
+                  colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+                  animationSpeed={3}
+                  showBorder={true}
+                  className="custom-class"
+                >
+                  Read News
+                </GradientText>
+              </Link>
+            </div>
           </SpotlightCard>
 
           <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-              <FaDev size={50} color="#fff"  />
+              <FaDev size={30} color="#fff"  />
+              <h3 style={{ color: 'white', margin: '10px 0' }}>
+              Join the dynamic IT freelancer community
+              </h3>
+            
+            <h5 style={{ color: 'white', marginBottom: '15px' }}>
+            Learn from experts, get advice & stay updated with technology trends.
+            </h5>
+            <div id='spotlight-button'>
+            <Link to="/register" className="text-decoration-none" style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%' }}>
+              <GradientText
+                colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
+                animationSpeed={3}
+                showBorder={true}
+                className="custom-class"
+              >
+                Register Here
+              </GradientText>
+            </Link>
+            </div>
           </SpotlightCard>
-          
         </div>  
       </div>
 
