@@ -1,10 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import Aurora from '../utilities/Aurora/Aurora'
 import SpotlightCard from '../utilities/SpotlightCard/SpotlightCard';
 import SplitText from "../utilities/SplitText/SplitText";
+import { IoIosSearch } from "react-icons/io";
 import { FaDev } from "react-icons/fa";
 import { HiBriefcase } from "react-icons/hi";
+import { BiWorld } from "react-icons/bi";
 import './styles/home.css'
 
 const handleAnimationComplete = () => {
@@ -58,17 +61,32 @@ const Home = () => {
         </div>
         
       </div>
-      
-      <div className="spotlight-container">
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 208, 208, 0.5)">
-            <FaDev size={50} color="#fff" />
-        </SpotlightCard>
 
-        <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(255, 208, 208, 0.5)">
-            <HiBriefcase size={50} color="#fff"  />
-        </SpotlightCard>
-      </div>    
-            
+      <div>
+        <div className="spotlight-container">
+          <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+              <IoIosSearch size={50} color="#fff" />
+          </SpotlightCard>
+
+          <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+              <HiBriefcase size={50} color="#fff"  />
+          </SpotlightCard>
+          
+        </div>    
+
+        <div className="spotlight-container">
+          <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+              <BiWorld size={50} color="#fff" />
+          </SpotlightCard>
+
+          <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
+              <FaDev size={50} color="#fff"  />
+          </SpotlightCard>
+          
+        </div>  
+      </div>
+
+    <Footer />              
     </>
   )
 }
