@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { motion } from "framer-motion";
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
+import { BsBox2Heart } from "react-icons/bs";
 
 const jobs = [
   { title: "Frontend Developer", type: "Full-time", salary: "$4000/month" },
@@ -53,9 +55,46 @@ const FindJob = () => {
   };
 
   return (
-    <div className="container py-5">
-      <button className="btn btn-secondary mb-3" onClick={() => window.location.href = "/"}>Back</button>
-      <h1 className="text-center mb-4">Find Your Dream Job ✨</h1>
+    <>
+    <Navbar/>
+    <div className="min-vh-100 py-5 container">
+      <style jsx>{`
+        .custom-card {
+          background-color: #111111;
+          color: white; 
+        }
+        .custom-btn {
+          background-color: #FF9EAA;
+          border-color: #FF9EAA;
+        }
+        .custom-btn:hover {
+          background-color: #FF8A99;
+          border-color: #FF8A99;
+        }
+        .custom-select {
+          background-color: #FF9EAA;
+          border-color: #FF9EAA;
+          color: white;
+        }
+        .custom-select:focus {
+          background-color: #FF9EAA;
+          border-color: #FF8A99;
+          color: white;
+          box-shadow: 0 0 0 0.2rem rgba(255, 158, 170, 0.25);
+        }
+        .custom-card .text-muted {
+          color: #cccccc !important; /* Light gray for better visibility */
+        }
+      `}</style>
+
+      <div className="d-flex align-items-center justify-content-center gap-3 mb-4">
+        <h1 className="display-4 text-white fw-bold m-0">
+          Find the Best Job
+        </h1>
+        <div className="bg-black p-3 rounded-circle">
+          <BsBox2Heart className="text-warning" style={{ fontSize: '2.5rem' }} />
+        </div>
+      </div>
       
       <div className="row mb-4">
         <div className="col-md-8">
@@ -68,7 +107,7 @@ const FindJob = () => {
         </div>
         <div className="col-md-4">
           <select
-            className="form-select"
+            className="form-select custom-select"
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
           >
@@ -89,10 +128,15 @@ const FindJob = () => {
               animate={{ opacity: 1, y: 0 }}
               className="col-md-6 mb-3"
             >
-              <div className="card p-3 shadow-sm">
+              <div className="card p-3 shadow-sm custom-card">
                 <h2 className="h5">{job.title}</h2>
                 <p className="text-muted">{job.type} • {job.salary}</p>
-                <button className="btn btn-primary" onClick={() => handleApply(job)}>Apply Now</button>
+                <button 
+                  className="btn custom-btn" 
+                  onClick={() => handleApply(job)}
+                >
+                  Apply Now
+                </button>
               </div>
             </motion.div>
           ))
@@ -113,7 +157,13 @@ const FindJob = () => {
               <input className="form-control my-2" placeholder="GitHub Profile" />
               <input className="form-control my-2" type="file" accept="image/*" placeholder="Choose Front Side Identify Card" />
               <input className="form-control my-2" type="file" accept="image/*" placeholder="Choose Back Side Identify Card" />
-              <input className="form-control my-2" type="file" accept="image/jpeg, image/png" onChange={(e) => validatePhoto(e.target.files[0])} placeholder="Upload Passport-Sized Photo" />
+              <input 
+                className="form-control my-2" 
+                type="file" 
+                accept="image/jpeg, image/png" 
+                onChange={(e) => validatePhoto(e.target.files[0])} 
+                placeholder="Upload Passport-Sized Photo" 
+              />
               <textarea className="form-control my-2" placeholder="Talk About Yourself"></textarea>
               <div className="d-flex justify-content-between">
                 <button className="btn btn-danger" onClick={handleClose}>Cancel</button>
@@ -135,6 +185,8 @@ const FindJob = () => {
         </div>
       )}
     </div>
+    <Footer/>
+    </>
   );
 };
 

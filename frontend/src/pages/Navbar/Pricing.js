@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { FaCcVisa, FaCcMastercard, FaCcAmex, FaCcDiscover, FaPaypal } from "react-icons/fa";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import { FaGratipay } from "react-icons/fa6";
 
 const plans = [
   {
@@ -22,8 +24,18 @@ const plans = [
 
 const Pricing = ({ onSelectPlan }) => {
   return (
-    <div className="container py-5 text-center">
-      <h2>Choose Your Plan</h2>
+    <>
+    <Navbar/>
+    <div className="container py-5 text-center min-vh-100">
+      <div className="d-flex align-items-center justify-content-center gap-3 mb-4">
+        <h1 className="display-4 text-white fw-bold m-0">
+          Find the Best Talent
+        </h1>
+        <div className="bg-black p-3 rounded-circle">
+          <FaGratipay  className="text-warning" style={{ fontSize: '2.5rem' }} />
+        </div>
+      </div>
+
       <div className="row justify-content-center">
         {plans.map((plan, index) => (
           <div key={index} className="col-md-4 mb-3">
@@ -41,6 +53,8 @@ const Pricing = ({ onSelectPlan }) => {
         ))}
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 
