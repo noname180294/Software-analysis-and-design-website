@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
-import Login from './pages/Authenticate/Login'
-import Register from './pages/Authenticate/Register'
+import Login from './pages/Login'
+import Register from './pages/Register'
 
 // for nav
 import Findtalent from './pages/Navbar/Findtalent';
