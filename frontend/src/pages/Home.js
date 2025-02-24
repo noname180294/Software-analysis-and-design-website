@@ -11,6 +11,7 @@ import { IoIosSearch } from "react-icons/io";
 import { FaDev } from "react-icons/fa";
 import { HiBriefcase } from "react-icons/hi";
 import { BiWorld } from "react-icons/bi";
+import PopularJobs from '../components/PopularJob';
 import './styles/home.css'
 
 const handleAnimationComplete = () => {
@@ -83,6 +84,7 @@ const Home = () => {
       </div>
 
       <div>
+        <h1 className='text-center mb-4' style={{color: '#fff'}}>Why FreeFireFiles</h1>
         <div id='spotlight' className="spotlight-container">
           <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)"
           >
@@ -182,8 +184,10 @@ const Home = () => {
             </div>
           </SpotlightCard>
         </div>  
-      </div>
 
+        <PopularJobs />
+      </div>
+      
     <Footer />              
     </>
   )

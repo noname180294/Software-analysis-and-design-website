@@ -1,0 +1,22 @@
+.popular-jobs-section .job-card .card {
+    transition: all 0.3s ease;
+    background: rgba(37, 37, 37, 0.6) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  }
+  
+  .popular-jobs-section .job-card .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 163, 255, 0.2);
+    border: 1px solid rgba(0, 163, 255, 0.3) !important;
+  }
+  
+  .popular-jobs-section .icon-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popular-jobs-section .card-title {
+    font-size: 1rem;
+    margin: 0;
+  }
