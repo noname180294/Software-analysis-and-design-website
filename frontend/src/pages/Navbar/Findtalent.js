@@ -12,7 +12,7 @@ const talents = [
     details: { location: "San Francisco", company: "DesignWorks", skills: ["Figma", "Adobe XD", "Sketch"] } },
   { name: "Phuoc Hieu", skill: "React Developer", experience: "4 years", 
     details: { location: "Global", company: "CodeCraft", skills: ["React", "Redux", "GraphQL"] } },
-  { name: "Son Tan", skill: "Backend Developer", experience: "6 years", 
+  { name: "Son Tan", skill: "Api", experience: "6 years", 
     details: { location: "Remote", company: "CloudSphere", skills: ["Python", "Django", "AWS"] } },
 ];
 
