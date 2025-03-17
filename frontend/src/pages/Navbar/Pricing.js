@@ -7,17 +7,17 @@ import { FaGratipay } from "react-icons/fa6";
 const plans = [
   {
     name: "Basic Plan",
-    price: "₫10,000/month",
+    price: "10$/month",
     features: ["Access to basic features", "5 job applications per month", "Standard customer support"],
   },
   {
     name: "Pro Plan",
-    price: "₫30,000/month",
+    price: "50$/month",
     features: ["Access to all features", "Unlimited job applications", "Priority customer support", "Profile highlight"],
   },
   {
     name: "VIP Plan",
-    price: "₫100,000/month",
+    price: "100$/month",
     features: ["Custom solutions for businesses", "Dedicated account manager", "Premium support 24/7", "Advanced analytics"],
   },
 ];
