@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\demo\\IT-Platform-ClassLib\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{041F57A3-6D7F-44FA-9A85-470D4439834E}|IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj|e:\\demo\\it-platform-classlib\\it-platform-classlib\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{041F57A3-6D7F-44FA-9A85-470D4439834E}|IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj|solutionrelative:it-platform-classlib\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{041F57A3-6D7F-44FA-9A85-470D4439834E}|IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj|e:\\demo\\it-platform-classlib\\it-platform-classlib\\it_platform_classlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{041F57A3-6D7F-44FA-9A85-470D4439834E}|IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj|solutionrelative:it-platform-classlib\\it_platform_classlib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IT_Platform_ClassLib.cs",
+              "DocumentMoniker": "E:\\demo\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\IT_Platform_ClassLib.cs",
+              "RelativeDocumentMoniker": "IT-Platform-ClassLib\\IT_Platform_ClassLib.cs",
+              "ToolTip": "E:\\demo\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\IT_Platform_ClassLib.cs",
+              "RelativeToolTip": "IT-Platform-ClassLib\\IT_Platform_ClassLib.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAADwv1QAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:26:23.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "E:\\demo\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\DBContext.cs",
+              "RelativeDocumentMoniker": "IT-Platform-ClassLib\\DBContext.cs",
+              "ToolTip": "E:\\demo\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\DBContext.cs",
+              "RelativeToolTip": "IT-Platform-ClassLib\\DBContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBUAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T04:09:17.287Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

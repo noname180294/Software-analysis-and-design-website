@@ -1,0 +1,14 @@
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\bin\Debug\net9.0\IT-Platform-ClassLib.deps.json
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\bin\Debug\net9.0\IT-Platform-ClassLib.runtimeconfig.json
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\bin\Debug\net9.0\IT-Platform-ClassLib.dll
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\bin\Debug\net9.0\IT-Platform-ClassLib.pdb
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\obj\Debug\net9.0\IT-Platform-ClassLib.csproj.AssemblyReference.cache
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\obj\Debug\net9.0\IT-Platform-ClassLib.GeneratedMSBuildEditorConfig.editorconfig
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\obj\Debug\net9.0\IT-Platform-ClassLib.AssemblyInfoInputs.cache
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\obj\Debug\net9.0\IT-Platform-ClassLib.AssemblyInfo.cs
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\obj\Debug\net9.0\IT-Platform-ClassLib.csproj.CoreCompileInputs.cache
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\obj\Debug\net9.0\IT-Platform-ClassLib.dll
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\obj\Debug\net9.0\refint\IT-Platform-ClassLib.dll
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\obj\Debug\net9.0\IT-Platform-ClassLib.pdb
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\obj\Debug\net9.0\IT-Platform-ClassLib.genruntimeconfig.cache
+E:\demo\IT-Platform-ClassLib\IT-Platform-ClassLib\obj\Debug\net9.0\ref\IT-Platform-ClassLib.dll
