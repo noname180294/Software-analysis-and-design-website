@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "od36QaYug8g=",
+  "dgSpecHash": "yX0Shnyay3k=",
   "success": true,
-  "projectFilePath": "E:\\demo\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj",
+  "projectFilePath": "E:\\Software-analysis-and-design-website\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hieu\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Hieu\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

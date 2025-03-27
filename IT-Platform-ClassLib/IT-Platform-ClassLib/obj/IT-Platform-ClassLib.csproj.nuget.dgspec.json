@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\demo\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj": {}
+    "E:\\Software-analysis-and-design-website\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj": {}
   },
   "projects": {
-    "E:\\demo\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj": {
+    "E:\\Software-analysis-and-design-website\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\demo\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj",
+        "projectUniqueName": "E:\\Software-analysis-and-design-website\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj",
         "projectName": "IT-Platform-ClassLib",
-        "projectPath": "E:\\demo\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj",
+        "projectPath": "E:\\Software-analysis-and-design-website\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\IT-Platform-ClassLib.csproj",
         "packagesPath": "C:\\Users\\Hieu\\.nuget\\packages\\",
-        "outputPath": "E:\\demo\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\obj\\",
+        "outputPath": "E:\\Software-analysis-and-design-website\\IT-Platform-ClassLib\\IT-Platform-ClassLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
