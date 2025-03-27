@@ -1,24 +1,246 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { PiSuitcaseSimple } from "react-icons/pi";
-import { FaBuilding, FaMapMarkerAlt } from "react-icons/fa";
+import { 
+  PiSuitcaseSimple 
+} from "react-icons/pi";
+import { 
+  FaBuilding, 
+  FaMapMarkerAlt, 
+  FaPhone, 
+  FaEnvelope, 
+  FaWhatsapp, 
+  FaSkype, 
+  FaLinkedin 
+} from "react-icons/fa";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 const talents = [
-  { name: "Thai Bao", skill: "Frontend Developer", experience: "5 years", 
-    details: { location: "Ho Chi Minh", company: "TechInnovate", skills: ["React", "JavaScript", "CSS"] } },
-  { name: "Tram Anh", skill: "UI/UX Designer", experience: "3 years", 
-    details: { location: "San Francisco", company: "DesignWorks", skills: ["Figma", "Adobe XD", "Sketch"] } },
-  { name: "Phuoc Hieu", skill: "React Developer", experience: "4 years", 
-    details: { location: "Global", company: "CodeCraft", skills: ["React", "Redux", "GraphQL"] } },
-  { name: "Son Tan", skill: "Api", experience: "6 years", 
-    details: { location: "Remote", company: "CloudSphere", skills: ["Python", "Django", "AWS"] } },
+  { 
+    name: "Thai Bao", 
+    skill: "Frontend Developer", 
+    experience: "5 years", 
+    details: { 
+      location: "Ho Chi Minh", 
+      company: "TechInnovate", 
+      skills: ["React", "JavaScript", "CSS"],
+      phone: "+84 123 456 789",
+      email: "thai.bao@techinnovate.com",
+      linkedin: "https://linkedin.com/in/thaibao",
+      skype: "thai.bao.skype"
+    } 
+  },
+  { 
+    name: "Tram Anh", 
+    skill: "UI/UX Designer", 
+    experience: "3 years", 
+    details: { 
+      location: "San Francisco", 
+      company: "DesignWorks", 
+      skills: ["Figma", "Adobe XD", "Sketch"],
+      phone: "+1 650 123 4567",
+      email: "tram.anh@designworks.com",
+      linkedin: "https://linkedin.com/in/tramanh",
+      skype: "tram.anh.skype"
+    } 
+  },
+  { 
+    name: "Phuoc Hieu", 
+    skill: "React Developer", 
+    experience: "4 years", 
+    details: { 
+      location: "Global", 
+      company: "CodeCraft", 
+      skills: ["React", "Redux", "GraphQL"],
+      phone: "+84 987 654 321",
+      email: "phuoc.hieu@codecraft.com",
+      linkedin: "https://linkedin.com/in/phuochieu",
+      skype: "phuoc.hieu.skype"
+    } 
+  },
+  { 
+    name: "Son Tan", 
+    skill: "Api", 
+    experience: "6 years", 
+    details: { 
+      location: "Remote", 
+      company: "CloudSphere", 
+      skills: ["Python", "Django", "AWS"],
+      phone: "+84 456 789 123",
+      email: "son.tan@cloudsphere.com",
+      linkedin: "https://linkedin.com/in/sontan",
+      skype: "son.tan.skype"
+    } 
+  },
 ];
+
+const TalentContactModal = ({ talent, onClose }) => {
+  return (
+    <div 
+      className="modal show d-block" 
+      style={{ 
+        backgroundColor: 'rgba(0,0,0,0.5)', 
+        position: 'fixed', 
+        top: 0, 
+        left: 0, 
+        width: '100%', 
+        height: '100%', 
+        zIndex: 1050,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}
+    >
+      <motion.div 
+        className="modal-content" 
+        initial={{ scale: 0.8, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 0.3 }}
+        style={{ 
+          width: '400px', 
+          backgroundColor: 'white', 
+          borderRadius: '15px', 
+          padding: '20px',
+          boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
+        }}
+      >
+        <button 
+          onClick={onClose} 
+          style={{
+            position: 'absolute', 
+            top: '10px', 
+            right: '10px', 
+            background: 'none', 
+            border: 'none', 
+            fontSize: '20px',
+            cursor: 'pointer'
+          }}
+        >
+          ✕
+        </button>
+
+        <div style={{ textAlign: 'center', marginBottom: '20px' }}>
+          <div 
+            style={{
+              width: '100px',
+              height: '100px',
+              borderRadius: '50%',
+              backgroundColor: '#FFD700',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              margin: '0 auto 15px',
+              fontSize: '40px',
+              fontWeight: 'bold'
+            }}
+          >
+            {talent.name.charAt(0)}
+          </div>
+          <h2>{talent.name}</h2>
+          <p style={{ color: 'gray' }}>{talent.skill} | {talent.experience}</p>
+        </div>
+
+        <div style={{ marginBottom: '20px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', marginBottom: '10px' }}>
+            <FaPhone style={{ marginRight: '10px', color: '#FF9EAA' }} />
+            <span>{talent.details.phone}</span>
+          </div>
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+            <FaEnvelope style={{ marginRight: '10px', color: '#FF9EAA' }} />
+            <span>{talent.details.email}</span>
+          </div>
+        </div>
+
+        <div style={{ 
+          display: 'flex', 
+          justifyContent: 'space-between', 
+          marginTop: '20px' 
+        }}>
+          <button 
+            onClick={() => window.open(`https://zalo.me/${talent.details.phone}`)}
+            style={{
+              background: '#0068FF', 
+              color: 'white', 
+              border: 'none', 
+              padding: '10px', 
+              borderRadius: '50%',
+              width: '50px',
+              height: '50px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              cursor: 'pointer'
+            }}
+          >
+            Z
+          </button>
+
+          <button 
+            onClick={() => window.open(`https://wa.me/${talent.details.phone}`)}
+            style={{
+              background: '#25D366', 
+              color: 'white', 
+              border: 'none', 
+              padding: '10px', 
+              borderRadius: '50%',
+              width: '50px',
+              height: '50px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              cursor: 'pointer'
+            }}
+          >
+            <FaWhatsapp />
+          </button>
+
+          <button 
+            onClick={() => window.open(`skype:${talent.details.skype}?chat`)}
+            style={{
+              background: '#00AFF0', 
+              color: 'white', 
+              border: 'none', 
+              padding: '10px', 
+              borderRadius: '50%',
+              width: '50px',
+              height: '50px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              cursor: 'pointer'
+            }}
+          >
+            <FaSkype />
+          </button>
+
+          <button 
+            onClick={() => window.open(talent.details.linkedin)}
+            style={{
+              background: '#0A66C2', 
+              color: 'white', 
+              border: 'none', 
+              padding: '10px', 
+              borderRadius: '50%',
+              width: '50px',
+              height: '50px',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              cursor: 'pointer'
+            }}
+          >
+            <FaLinkedin />
+          </button>
+        </div>
+      </motion.div>
+    </div>
+  );
+};
 
 const FindTalent = () => {
   const [search, setSearch] = useState("");
   const [filter, setFilter] = useState("All");
+  const [selectedTalent, setSelectedTalent] = useState(null);
 
   const filteredTalents = talents.filter(
     (talent) =>
@@ -86,26 +308,8 @@ const FindTalent = () => {
                     transition: 'all 0.3s ease',
                     transform: 'perspective(1000px)',
                   }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = 'scale(1.05) rotateX(5deg) rotateY(5deg)';
-                    e.currentTarget.style.boxShadow = '0 20px 30px rgba(255, 158, 170, 0.3)';
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = 'scale(1) rotateX(0) rotateY(0)';
-                    e.currentTarget.style.boxShadow = '0 10px 20px rgba(255, 158, 170, 0.2)';
-                  }}
                 >
-                  <div 
-                    className="position-absolute top-0 end-0" 
-                    style={{
-                      width: '70px',
-                      height: '10px',
-                      background: '#FF9EAA',
-                      transform: 'rotate(45deg) translate(35%, -35%)',
-                      zIndex: 1
-                    }}
-                  />
-
+                  {/* Card Content */}
                   <div className="card-body d-flex flex-column">
                     <div className="d-flex justify-content-between align-items-center mb-3">
                       <span 
@@ -177,14 +381,7 @@ const FindTalent = () => {
                           color: '#FF9EAA',
                           transition: 'all 0.3s ease'
                         }}
-                        onMouseEnter={(e) => {
-                          e.currentTarget.style.backgroundColor = '#FF9EAA';
-                          e.currentTarget.style.color = 'white';
-                        }}
-                        onMouseLeave={(e) => {
-                          e.currentTarget.style.backgroundColor = 'transparent';
-                          e.currentTarget.style.color = '#FF9EAA';
-                        }}
+                        onClick={() => setSelectedTalent(talent)}
                       >
                         Contact
                       </button>
@@ -198,6 +395,14 @@ const FindTalent = () => {
           )}
         </div>
       </div>
+      
+      {selectedTalent && (
+        <TalentContactModal 
+          talent={selectedTalent} 
+          onClose={() => setSelectedTalent(null)} 
+        />
+      )}
+      
       <Footer/>
     </>
   );
