@@ -26,7 +26,7 @@ const talents = [
       skills: ["React", "JavaScript", "CSS"],
       phone: "+84 123 456 789",
       email: "thai.bao@techinnovate.com",
-      linkedin: "https://linkedin.com/in/thaibao",
+      linkedin: "",
       skype: "thai.bao.skype"
     } 
   },
@@ -40,7 +40,7 @@ const talents = [
       skills: ["Figma", "Adobe XD", "Sketch"],
       phone: "+1 650 123 4567",
       email: "tram.anh@designworks.com",
-      linkedin: "https://linkedin.com/in/tramanh",
+      linkedin: "",
       skype: "tram.anh.skype"
     } 
   },
@@ -54,7 +54,7 @@ const talents = [
       skills: ["React", "Redux", "GraphQL"],
       phone: "+84 987 654 321",
       email: "phuoc.hieu@codecraft.com",
-      linkedin: "https://linkedin.com/in/phuochieu",
+      linkedin: "",
       skype: "phuoc.hieu.skype"
     } 
   },
@@ -68,7 +68,7 @@ const talents = [
       skills: ["Python", "Django", "AWS"],
       phone: "+84 456 789 123",
       email: "son.tan@cloudsphere.com",
-      linkedin: "https://linkedin.com/in/sontan",
+      linkedin: "",
       skype: "son.tan.skype"
     } 
   },
