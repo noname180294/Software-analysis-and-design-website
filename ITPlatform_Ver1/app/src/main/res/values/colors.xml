@@ -2,7 +2,18 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="teal_500">#26A69A</color>
-    <color name="pink">#FFD0D0</color>
-    <color name="pink_500">#FF9EAA</color>
+    <color name="blue_primary">#0C359E</color> <!-- Xanh đậm -->
+    <color name="pink_accent">#EE99C2</color> <!-- Hồng pastel -->
+    <color name="pink_dark">#C2185B</color>
+    <color name="peach_light">#FFE3CA</color> <!-- Cam nhạt -->
+    <color name="gray_background">#F6F5F5</color> <!-- Xám nhạt -->
+    <color name="skill_blue">#4A90E2</color>
+    <color name="skill_green">#7ED321</color>
+    <color name="skill_orange">#F5A623</color>
+    <color name="skill_purple">#9013FE</color>
+    <color name="skill_red">#D0021B</color>
+    <color name="skill_teal">#00A79D</color>
+    <color name="skill_pink">#FF4081</color>
+    <color name="light_pink">#FFD1DC</color> <!-- Màu hồng pastel nhẹ -->
+    <color name="gray_bubble">#F5F5F5</color>
 </resources>

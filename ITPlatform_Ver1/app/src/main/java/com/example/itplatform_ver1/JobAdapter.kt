@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
+data class Job(val title: String, val company: String, val salary: String)
+
 class JobAdapter(private val jobs: List<Job>) : RecyclerView.Adapter<JobAdapter.JobViewHolder>() {
 
     class JobViewHolder(view: View) : RecyclerView.ViewHolder(view) {
