@@ -356,7 +356,7 @@ const FindTalent = () => {
                     </div>
 
                     <div className="mb-3">
-                      <small className="text-muted">Required Skills:</small>
+                      <small className="text-muted">Skills:</small>
                       <div className="d-flex flex-wrap gap-2 mt-1">
                         {talent.details.skills.map((skill, idx) => (
                           <span 
@@ -408,4 +408,4 @@ const FindTalent = () => {
   );
 };
 
-export default FindTalent;
+export default FindTalent;  
