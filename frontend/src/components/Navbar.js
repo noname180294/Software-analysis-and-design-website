@@ -44,6 +44,16 @@ const Navbar = () => {
                 Pricing
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="/faq" style={{ color: '#E0F7FA' }}>
+                FAQ
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="/blog" style={{ color: '#E0F7FA' }}>
+                Blog
+              </a>
+            </li>
           </ul>
         </div>
         <div className="d-flex me-3">
