@@ -45,12 +45,12 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/faq" style={{ color: '#E0F7FA' }}>
+              <a className="nav-link active" aria-current="page" href="/FAQ" style={{ color: '#E0F7FA' }}>
                 FAQ
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/blog" style={{ color: '#E0F7FA' }}>
+              <a className="nav-link active" aria-current="page" href="/Blog" style={{ color: '#E0F7FA' }}>
                 Blog
               </a>
             </li>
