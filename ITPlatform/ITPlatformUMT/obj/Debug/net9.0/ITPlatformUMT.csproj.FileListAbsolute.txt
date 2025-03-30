@@ -269,3 +269,6 @@ C:\Users\ROG\source\repos\ITPlatform\ITPlatformUMT\obj\Debug\net9.0\refint\ITPla
 C:\Users\ROG\source\repos\ITPlatform\ITPlatformUMT\obj\Debug\net9.0\ITPlatformUMT.pdb
 C:\Users\ROG\source\repos\ITPlatform\ITPlatformUMT\obj\Debug\net9.0\ITPlatformUMT.genruntimeconfig.cache
 C:\Users\ROG\source\repos\ITPlatform\ITPlatformUMT\obj\Debug\net9.0\ref\ITPlatformUMT.dll
+E:\Software-analysis-and-design-website\ITPlatform\ITPlatformUMT\obj\Debug\net9.0\ITPlatformUMT.dll
+E:\Software-analysis-and-design-website\ITPlatform\ITPlatformUMT\obj\Debug\net9.0\refint\ITPlatformUMT.dll
+E:\Software-analysis-and-design-website\ITPlatform\ITPlatformUMT\obj\Debug\net9.0\ITPlatformUMT.pdb
