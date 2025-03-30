@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaMapMarkerAlt, FaChevronRight } from "react-icons/fa";
 
 const Navbar = () => {
@@ -43,6 +43,9 @@ const Navbar = () => {
 
 const FAQ = () => {
   const [openItems, setOpenItems] = useState({});
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("All Categories");
+  const [filteredItems, setFilteredItems] = useState([]);
 
   const faqItems = [
     {
@@ -107,6 +110,31 @@ const FAQ = () => {
     }
   ];
 
+  // Filter items based on search query and selected category
+  useEffect(() => {
+    let results = faqItems;
+    
+    // Filter by search query
+    if (searchQuery) {
+      results = results.filter(item => 
+        item.question.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        item.answer.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+    }
+    
+    // Filter by category
+    if (selectedCategory !== "All Categories") {
+      results = results.filter(item => item.category === selectedCategory);
+    }
+    
+    setFilteredItems(results);
+  }, [searchQuery, selectedCategory]);
+
+  // Initialize filtered items on component mount
+  useEffect(() => {
+    setFilteredItems(faqItems);
+  }, []);
+
   const toggleItem = (id) => {
     setOpenItems(prev => ({
       ...prev,
@@ -114,9 +142,23 @@ const FAQ = () => {
     }));
   };
 
-  // Split questions into two columns
-  const leftColumnItems = faqItems.slice(0, 5);
-  const rightColumnItems = faqItems.slice(5, 10);
+  // Get unique categories for the dropdown
+  const categories = ["All Categories", ...new Set(faqItems.map(item => item.category))];
+
+  // Handle search input change with immediate filtering
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
+  // Handle category selection
+  const handleCategoryChange = (e) => {
+    setSelectedCategory(e.target.value);
+  };
+
+  // Split filtered questions into two columns
+  const halfwayIndex = Math.ceil(filteredItems.length / 2);
+  const leftColumnItems = filteredItems.slice(0, halfwayIndex);
+  const rightColumnItems = filteredItems.slice(halfwayIndex);
 
   const renderFaqItem = (item) => (
     <div 
@@ -237,6 +279,8 @@ const FAQ = () => {
             <input 
               type="text" 
               placeholder="Search for answers..." 
+              value={searchQuery}
+              onChange={handleSearchChange}
               style={{ 
                 padding: "12px 16px",
                 width: "500px",
@@ -249,22 +293,23 @@ const FAQ = () => {
               position: "relative",
               width: "200px"
             }}>
-              <select style={{ 
-                appearance: "none",
-                width: "100%",
-                padding: "12px 16px",
-                borderRadius: "4px",
-                border: "none",
-                backgroundColor: "#ff69b4",
-                color: "white",
-                cursor: "pointer"
-              }}>
-                <option>All Categories</option>
-                <option>Billing</option>
-                <option>Account</option>
-                <option>Usage</option>
-                <option>Collaboration</option>
-                <option>Support</option>
+              <select 
+                value={selectedCategory}
+                onChange={handleCategoryChange}
+                style={{ 
+                  appearance: "none",
+                  width: "100%",
+                  padding: "12px 16px",
+                  borderRadius: "4px",
+                  border: "none",
+                  backgroundColor: "#ff69b4",
+                  color: "white",
+                  cursor: "pointer"
+                }}
+              >
+                {categories.map(category => (
+                  <option key={category} value={category}>{category}</option>
+                ))}
               </select>
               <div style={{ 
                 position: "absolute",
@@ -278,20 +323,32 @@ const FAQ = () => {
           </div>
         </div>
         
-        <div style={{ 
-          maxWidth: "1200px", 
-          margin: "0 auto", 
-          display: "grid", 
-          gridTemplateColumns: "1fr 1fr", 
-          gap: "20px" 
-        }}>
-          <div>
-            {leftColumnItems.map(renderFaqItem)}
+        {filteredItems.length > 0 ? (
+          <div style={{ 
+            maxWidth: "1200px", 
+            margin: "0 auto", 
+            display: "grid", 
+            gridTemplateColumns: "1fr 1fr", 
+            gap: "20px" 
+          }}>
+            <div>
+              {leftColumnItems.map(renderFaqItem)}
+            </div>
+            <div>
+              {rightColumnItems.map(renderFaqItem)}
+            </div>
           </div>
-          <div>
-            {rightColumnItems.map(renderFaqItem)}
+        ) : (
+          <div style={{
+            maxWidth: "1200px",
+            margin: "0 auto",
+            textAlign: "center",
+            padding: "40px 0"
+          }}>
+            <h3 style={{ color: "#ff69b4" }}>No matching questions found</h3>
+            <p>Try adjusting your search or category filter</p>
           </div>
-        </div>
+        )}
       </div>
     </>
   );
