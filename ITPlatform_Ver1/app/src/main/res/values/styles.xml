@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ProfileLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/pink_dark</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="ProfileText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/text_background</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="ProfileInput">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/input_background</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="ProfileButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/pink_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="ProfileButtonLogout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/pink_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+</resources>

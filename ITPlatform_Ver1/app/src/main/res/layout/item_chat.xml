@@ -1,21 +1,29 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@color/light_pink"
+    android:clickable="true"
+    android:focusable="true">
+
 
     <TextView
-        android:id="@+id/chatSender"
+        android:id="@+id/chatListName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sender Name"
+        android:text="User Name"
         android:textSize="16sp"
-        android:textStyle="bold" />
+        android:textColor="@color/blue_primary"
+        android:textStyle="bold"/>
 
     <TextView
-        android:id="@+id/chatText"
+        android:id="@+id/chatListLastMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Message text"
-        android:textSize="14sp" />
+        android:text="Last message preview"
+        android:textSize="14sp"
+        android:textColor="#666"/>
 </LinearLayout>
