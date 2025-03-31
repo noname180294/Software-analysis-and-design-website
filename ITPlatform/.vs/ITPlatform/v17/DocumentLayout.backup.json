@@ -3,188 +3,192 @@
   "WorkspaceRootPath": "E:\\Software-analysis-and-design-website\\ITPlatform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ITPlatformUMT\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\mydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\mydbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ITPlatformUMT\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|e:\\software-analysis-and-design-website\\itplatform\\itplatformumt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|solutionrelative:itplatformumt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Controllers\\PackagesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ITPlatformUMT\\Controllers\\PackagesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|e:\\software-analysis-and-design-website\\itplatform\\itplatformumt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|solutionrelative:itplatformumt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Controllers\\ClientsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ITPlatformUMT\\Controllers\\ClientsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Controllers\\ProjectsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ITPlatformUMT\\Controllers\\ProjectsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|e:\\software-analysis-and-design-website\\itplatform\\itplatformumt\\controllers\\packagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|solutionrelative:itplatformumt\\controllers\\packagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Controllers\\FreelancersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ITPlatformUMT\\Controllers\\FreelancersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|e:\\software-analysis-and-design-website\\itplatform\\itplatformumt\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|solutionrelative:itplatformumt\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Controllers\\ApplicationsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ITPlatformUMT\\Controllers\\ApplicationsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|e:\\software-analysis-and-design-website\\itplatform\\itplatformumt\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|solutionrelative:itplatformumt\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Controllers\\AccountsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ITPlatformUMT\\Controllers\\AccountsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|e:\\software-analysis-and-design-website\\itplatform\\itplatformumt\\controllers\\freelancerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|solutionrelative:itplatformumt\\controllers\\freelancerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\MyDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\MyDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|e:\\software-analysis-and-design-website\\itplatform\\itplatformumt\\controllers\\applicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|solutionrelative:itplatformumt\\controllers\\applicationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\SkillService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\SkillService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|e:\\software-analysis-and-design-website\\itplatform\\itplatformumt\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBF92E7B-9DA2-4568-8F12-4E1A1C68D7C2}|ITPlatformUMT\\ITPlatformUMT.csproj|solutionrelative:itplatformumt\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\SubmittionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\SubmittionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\skillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\SubscriptionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\SubscriptionService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\submittionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\submittionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\SkillRequirementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\SkillRequirementService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\subscriptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\SkillInProfileService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\SkillInProfileService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\skillrequirementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\skillrequirementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\ProjectService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\ProjectService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\skillinprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\skillinprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\PackageService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\PackageService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\projectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\MilestoneService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\MilestoneService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\packageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\packageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\LocationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\LocationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\milestoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\milestoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\FreelancerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\FreelancerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\locationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\ExpertiseProfileService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\ExpertiseProfileService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\freelancerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\freelancerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\ClientService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\ClientService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\expertiseprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\expertiseprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\CertificationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\CertificationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\clientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\ApplicationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\ApplicationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\certificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\certificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\AccountService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\AccountService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\applicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\LocationDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccessObjects\\LocationDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|e:\\software-analysis-and-design-website\\itplatform\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB7C0D14-A9F1-45E0-83B6-C16C7FCAF39C}|Services\\Services.csproj|solutionrelative:services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\FreelancerDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccessObjects\\FreelancerDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\dataaccessobjects\\locationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\locationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\ExpertiseProfileDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccessObjects\\ExpertiseProfileDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\dataaccessobjects\\freelancerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\freelancerdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\ClientDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccessObjects\\ClientDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\dataaccessobjects\\expertiseprofiledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\expertiseprofiledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\CertificationDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccessObjects\\CertificationDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\dataaccessobjects\\clientdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\clientdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\ApplicationDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccessObjects\\ApplicationDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\dataaccessobjects\\certificationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\certificationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\AccountDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DataAccessObjects\\AccountDAO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\dataaccessobjects\\applicationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\applicationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Repositories\\ExpertiseProfileRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\ExpertiseProfileRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\dataaccessobjects\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1FA5AED-CA31-4F32-BD7A-D20DDD608194}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\Repositories\\CertificationRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\CertificationRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BDF305C-2E18-4390-BC41-669EDB5D38AD}|Repositories\\Repositories.csproj|e:\\software-analysis-and-design-website\\itplatform\\repositories\\expertiseprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BDF305C-2E18-4390-BC41-669EDB5D38AD}|Repositories\\Repositories.csproj|solutionrelative:repositories\\expertiseprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\Subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BDF305C-2E18-4390-BC41-669EDB5D38AD}|Repositories\\Repositories.csproj|e:\\software-analysis-and-design-website\\itplatform\\repositories\\certificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BDF305C-2E18-4390-BC41-669EDB5D38AD}|Repositories\\Repositories.csproj|solutionrelative:repositories\\certificationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Submittion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\Submittion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\SkillRequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\SkillRequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\submittion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\submittion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\SkillInProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\SkillInProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\skillrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\skillrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\Skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\skillinprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\skillinprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\Project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\Package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Milestone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\Milestone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\Location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\milestone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\milestone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Freelancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\Freelancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\ExpertiseProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\ExpertiseProfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\freelancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\freelancer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\Client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\expertiseprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\expertiseprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessObjects\\Certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|e:\\software-analysis-and-design-website\\itplatform\\businessobjects\\certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BAC7872-60A9-4702-9728-CE2FC83CD358}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\certification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -194,7 +198,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -206,7 +210,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "MyDbContextFactory.cs",
+              "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\MyDbContextFactory.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\MyDbContextFactory.cs",
+              "ToolTip": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\MyDbContextFactory.cs",
+              "RelativeToolTip": "BusinessObjects\\MyDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T13:55:54.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PackagesController.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Controllers\\PackagesController.cs",
               "RelativeDocumentMoniker": "ITPlatformUMT\\Controllers\\PackagesController.cs",
@@ -218,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ClientsController.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Controllers\\ClientsController.cs",
               "RelativeDocumentMoniker": "ITPlatformUMT\\Controllers\\ClientsController.cs",
@@ -230,20 +247,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Program.cs",
               "RelativeDocumentMoniker": "ITPlatformUMT\\Program.cs",
               "ToolTip": "E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Program.cs",
               "RelativeToolTip": "ITPlatformUMT\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T12:17:31.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ProjectsController.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Controllers\\ProjectsController.cs",
               "RelativeDocumentMoniker": "ITPlatformUMT\\Controllers\\ProjectsController.cs",
@@ -255,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "FreelancersController.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Controllers\\FreelancersController.cs",
               "RelativeDocumentMoniker": "ITPlatformUMT\\Controllers\\FreelancersController.cs",
@@ -267,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ApplicationsController.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Controllers\\ApplicationsController.cs",
               "RelativeDocumentMoniker": "ITPlatformUMT\\Controllers\\ApplicationsController.cs",
@@ -279,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AccountsController.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\Controllers\\AccountsController.cs",
               "RelativeDocumentMoniker": "ITPlatformUMT\\Controllers\\AccountsController.cs",
@@ -291,19 +308,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "MyDbContext.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\MyDbContext.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\MyDbContext.cs",
               "ToolTip": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\MyDbContext.cs",
               "RelativeToolTip": "BusinessObjects\\MyDbContext.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAowEwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAAAGoBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T08:17:25.268Z"
+              "WhenOpened": "2025-03-27T08:17:25.268Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\appsettings.json",
               "RelativeDocumentMoniker": "ITPlatformUMT\\appsettings.json",
@@ -316,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SkillService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\SkillService.cs",
               "RelativeDocumentMoniker": "Services\\SkillService.cs",
@@ -328,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SubmittionService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\SubmittionService.cs",
               "RelativeDocumentMoniker": "Services\\SubmittionService.cs",
@@ -340,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "SubscriptionService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\SubscriptionService.cs",
               "RelativeDocumentMoniker": "Services\\SubscriptionService.cs",
@@ -352,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "SkillRequirementService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\SkillRequirementService.cs",
               "RelativeDocumentMoniker": "Services\\SkillRequirementService.cs",
@@ -364,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "SkillInProfileService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\SkillInProfileService.cs",
               "RelativeDocumentMoniker": "Services\\SkillInProfileService.cs",
@@ -376,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ProjectService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\ProjectService.cs",
               "RelativeDocumentMoniker": "Services\\ProjectService.cs",
@@ -388,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "PackageService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\PackageService.cs",
               "RelativeDocumentMoniker": "Services\\PackageService.cs",
@@ -400,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MilestoneService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\MilestoneService.cs",
               "RelativeDocumentMoniker": "Services\\MilestoneService.cs",
@@ -412,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "LocationService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\LocationService.cs",
               "RelativeDocumentMoniker": "Services\\LocationService.cs",
@@ -424,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "FreelancerService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\FreelancerService.cs",
               "RelativeDocumentMoniker": "Services\\FreelancerService.cs",
@@ -436,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ExpertiseProfileService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\ExpertiseProfileService.cs",
               "RelativeDocumentMoniker": "Services\\ExpertiseProfileService.cs",
@@ -448,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "ClientService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\ClientService.cs",
               "RelativeDocumentMoniker": "Services\\ClientService.cs",
@@ -460,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CertificationService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\CertificationService.cs",
               "RelativeDocumentMoniker": "Services\\CertificationService.cs",
@@ -472,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "ApplicationService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\ApplicationService.cs",
               "RelativeDocumentMoniker": "Services\\ApplicationService.cs",
@@ -484,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "AccountService.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\AccountService.cs",
               "RelativeDocumentMoniker": "Services\\AccountService.cs",
@@ -496,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "LocationDAO.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\LocationDAO.cs",
               "RelativeDocumentMoniker": "DataAccessObjects\\LocationDAO.cs",
@@ -508,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "FreelancerDAO.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\FreelancerDAO.cs",
               "RelativeDocumentMoniker": "DataAccessObjects\\FreelancerDAO.cs",
@@ -520,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "ExpertiseProfileDAO.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\ExpertiseProfileDAO.cs",
               "RelativeDocumentMoniker": "DataAccessObjects\\ExpertiseProfileDAO.cs",
@@ -532,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ClientDAO.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\ClientDAO.cs",
               "RelativeDocumentMoniker": "DataAccessObjects\\ClientDAO.cs",
@@ -544,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CertificationDAO.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\CertificationDAO.cs",
               "RelativeDocumentMoniker": "DataAccessObjects\\CertificationDAO.cs",
@@ -556,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ApplicationDAO.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\ApplicationDAO.cs",
               "RelativeDocumentMoniker": "DataAccessObjects\\ApplicationDAO.cs",
@@ -568,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "AccountDAO.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\AccountDAO.cs",
               "RelativeDocumentMoniker": "DataAccessObjects\\AccountDAO.cs",
@@ -580,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "ExpertiseProfileRepository.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Repositories\\ExpertiseProfileRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ExpertiseProfileRepository.cs",
@@ -592,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "CertificationRepository.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\Repositories\\CertificationRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CertificationRepository.cs",
@@ -604,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Subscription.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Subscription.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\Subscription.cs",
@@ -616,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Submittion.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Submittion.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\Submittion.cs",
@@ -628,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "SkillRequirement.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\SkillRequirement.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\SkillRequirement.cs",
@@ -640,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "SkillInProfile.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\SkillInProfile.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\SkillInProfile.cs",
@@ -652,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Skill.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Skill.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\Skill.cs",
@@ -664,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Project.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Project.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\Project.cs",
@@ -676,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Package.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Package.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\Package.cs",
@@ -688,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Milestone.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Milestone.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\Milestone.cs",
@@ -700,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "Location.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Location.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\Location.cs",
@@ -712,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "Freelancer.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Freelancer.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\Freelancer.cs",
@@ -724,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "ExpertiseProfile.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\ExpertiseProfile.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\ExpertiseProfile.cs",
@@ -736,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Client.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Client.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\Client.cs",
@@ -748,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "Certification.cs",
               "DocumentMoniker": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\Certification.cs",
               "RelativeDocumentMoniker": "BusinessObjects\\Certification.cs",

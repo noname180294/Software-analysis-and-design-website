@@ -28,7 +28,7 @@ namespace BusinessObjects
         {
             if (!optionsBuilder.IsConfigured)
             {
-                var connectionString = "Server=DESKTOP-EM4S57C;Database=ITPlatformUMT;Uid=sa;Pwd=123456@;TrustServerCertificate=true";
+                var connectionString = "Server=AXEL\\SQLEXPRESS;Database=ITPlatformUMT;Uid=Hieu;Pwd=Hieupham123;TrustServerCertificate=true";
                 optionsBuilder.UseSqlServer(connectionString);
             }
         }

@@ -8106,23 +8106,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ROG\\.nuget\\packages\\": {},
+    "C:\\Users\\Hieu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\ITPlatformUMT\\ITPlatformUMT.csproj",
+      "projectUniqueName": "E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\ITPlatformUMT.csproj",
       "projectName": "ITPlatformUMT",
-      "projectPath": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\ITPlatformUMT\\ITPlatformUMT.csproj",
-      "packagesPath": "C:\\Users\\ROG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\ITPlatformUMT\\obj\\",
+      "projectPath": "E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\ITPlatformUMT.csproj",
+      "packagesPath": "C:\\Users\\Hieu\\.nuget\\packages\\",
+      "outputPath": "E:\\Software-analysis-and-design-website\\ITPlatform\\ITPlatformUMT\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ROG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8131,23 +8131,24 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\ROG\\source\\repos\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj": {
-              "projectPath": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj"
+            "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj": {
+              "projectPath": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj"
             },
-            "C:\\Users\\ROG\\source\\repos\\ITPlatform\\DataAccessObjects\\DataAccessObjects.csproj": {
-              "projectPath": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\DataAccessObjects\\DataAccessObjects.csproj"
+            "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\DataAccessObjects.csproj": {
+              "projectPath": "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\DataAccessObjects.csproj"
             },
-            "C:\\Users\\ROG\\source\\repos\\ITPlatform\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\Repositories\\Repositories.csproj"
+            "E:\\Software-analysis-and-design-website\\ITPlatform\\Repositories\\Repositories.csproj": {
+              "projectPath": "E:\\Software-analysis-and-design-website\\ITPlatform\\Repositories\\Repositories.csproj"
             },
-            "C:\\Users\\ROG\\source\\repos\\ITPlatform\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\Services\\Services.csproj"
+            "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\Services.csproj": {
+              "projectPath": "E:\\Software-analysis-and-design-website\\ITPlatform\\Services\\Services.csproj"
             }
           }
         }

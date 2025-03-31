@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ROG\\source\\repos\\ITPlatform\\DataAccessObjects\\DataAccessObjects.csproj": {}
+    "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\DataAccessObjects.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ROG\\source\\repos\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj": {
+    "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj",
+        "projectUniqueName": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj",
         "projectName": "BusinessObjects",
-        "projectPath": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj",
-        "packagesPath": "C:\\Users\\ROG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\BusinessObjects\\obj\\",
+        "projectPath": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\Hieu\\.nuget\\packages\\",
+        "outputPath": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ROG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +51,12 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -85,20 +92,20 @@
         }
       }
     },
-    "C:\\Users\\ROG\\source\\repos\\ITPlatform\\DataAccessObjects\\DataAccessObjects.csproj": {
+    "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\DataAccessObjects.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\DataAccessObjects\\DataAccessObjects.csproj",
+        "projectUniqueName": "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\DataAccessObjects.csproj",
         "projectName": "DataAccessObjects",
-        "projectPath": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\DataAccessObjects\\DataAccessObjects.csproj",
-        "packagesPath": "C:\\Users\\ROG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\DataAccessObjects\\obj\\",
+        "projectPath": "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\DataAccessObjects.csproj",
+        "packagesPath": "C:\\Users\\Hieu\\.nuget\\packages\\",
+        "outputPath": "E:\\Software-analysis-and-design-website\\ITPlatform\\DataAccessObjects\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ROG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -107,14 +114,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\ROG\\source\\repos\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj": {
-                "projectPath": "C:\\Users\\ROG\\source\\repos\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj"
+              "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "E:\\Software-analysis-and-design-website\\ITPlatform\\BusinessObjects\\BusinessObjects.csproj"
               }
             }
           }
