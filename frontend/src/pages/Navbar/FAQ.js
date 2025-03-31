@@ -25,7 +25,6 @@ const Navbar = () => {
         <a href="/news" style={{ color: "white", textDecoration: "none" }}>News</a>
         <a href="/pricing" style={{ color: "white", textDecoration: "none" }}>Pricing</a>
         <a href="/faq" style={{ color: "white", textDecoration: "none" }}>FAQ</a>
-        <a href="/blog" style={{ color: "white", textDecoration: "none" }}>Blog</a>
       </div>
       <button style={{ 
         backgroundColor: "transparent", 

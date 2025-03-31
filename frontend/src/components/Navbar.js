@@ -49,11 +49,7 @@ const Navbar = () => {
                 FAQ
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="/Blog" style={{ color: '#E0F7FA' }}>
-                Blog
-              </a>
-            </li>
+
           </ul>
         </div>
         <div className="d-flex me-3">

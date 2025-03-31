@@ -13,7 +13,6 @@ import News from './pages/Navbar/News';
 import Pricing from './pages/Navbar/Pricing';
 import FAQ from './pages/Navbar/FAQ';
 import GradientText from './utilities/GradientText/GradientText';
-import Blog from './pages/Navbar/Blog';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
@@ -30,7 +29,6 @@ function App() {
         <Route path="/news" element={<News />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/faq" element={<FAQ />} />
-        <Route path="/blog" element={<Blog />} />
 
         {/* authenticate */}
         <Route path="/login" element={<Login />} />
