@@ -8,10 +8,14 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.itplatform_ver1.databinding.FragmentLoginBinding
 import com.google.android.material.snackbar.Snackbar
+import okhttp3.*
+import org.json.JSONArray
+import java.io.IOException
 
 class LoginFragment : Fragment() {
     private var _binding: FragmentLoginBinding? = null
     private val binding get() = _binding!!
+    private val client = OkHttpClient()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -24,33 +28,49 @@ class LoginFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Login button click listener
         binding.loginButton.setOnClickListener {
-            val username = binding.usernameInput.text.toString().trim()
+            val email = binding.usernameInput.text.toString().trim()
             val password = binding.passwordInput.text.toString().trim()
-
-            if (validateLogin(username, password)) {
-                // Navigate to MainActivity on success
-                val intent = Intent(activity, MainActivity::class.java)
-                startActivity(intent)
-                activity?.finish() // Close LoginFragment/activity
-            } else {
-                // Show error message
-                Snackbar.make(binding.root, "Invalid username or password", Snackbar.LENGTH_SHORT).show()
-            }
+            authenticateUser(email, password)
         }
 
-        // Optional: Forgot password click listener
         binding.forgotPassword.setOnClickListener {
             Snackbar.make(binding.root, "Forgot Password clicked", Snackbar.LENGTH_SHORT).show()
         }
     }
 
-    private fun validateLogin(username: String, password: String): Boolean {
-        // Mock credentials
-        val mockUsername = "demo"
-        val mockPassword = "1234"
-        return username == mockUsername && password == mockPassword
+    private fun authenticateUser(email: String, password: String) {
+        val request = Request.Builder()
+            .url("https://itplatform.onrender.com/api/Accounts")
+            .build()
+
+        client.newCall(request).enqueue(object : Callback {
+            override fun onFailure(call: Call, e: IOException) {
+                activity?.runOnUiThread {
+                    Snackbar.make(binding.root, "Network error", Snackbar.LENGTH_SHORT).show()
+                }
+            }
+
+            override fun onResponse(call: Call, response: Response) {
+                response.body?.string()?.let { responseBody ->
+                    val accounts = JSONArray(responseBody)
+                    for (i in 0 until accounts.length()) {
+                        val account = accounts.getJSONObject(i)
+                        if (account.getString("email") == email && account.getString("password") == password) {
+                            activity?.runOnUiThread {
+                                val intent = Intent(activity, MainActivity::class.java)
+                                startActivity(intent)
+                                activity?.finish()
+                            }
+                            return
+                        }
+                    }
+                    activity?.runOnUiThread {
+                        Snackbar.make(binding.root, "Invalid username or password", Snackbar.LENGTH_SHORT).show()
+                    }
+                }
+            }
+        })
     }
 
     override fun onDestroyView() {
