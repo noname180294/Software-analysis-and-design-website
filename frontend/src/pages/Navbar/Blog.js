@@ -42,7 +42,7 @@ const Blog = () => {
           {posts.map((post) => (
             <div
               key={post.id}
-              className="p-4 bg-white rounded-lg shadow-lg border text-pink-500" // Apply text-pink-500 to the entire card
+              className="p-4 bg-white rounded-lg shadow-lg border text-pink-500"
             >
               <h2 className="text-xl font-semibold">{post.title}</h2>
               <p className="flex items-center mt-1">

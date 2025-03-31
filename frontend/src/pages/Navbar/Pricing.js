@@ -40,7 +40,6 @@ const PaymentModal = ({ isOpen, onClose, selectedPlan }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Here you would typically integrate with a payment processing service
     console.log("Processing payment:", { plan: selectedPlan, paymentMethod, cardInfo });
     alert(`Payment for ${selectedPlan.name} processed successfully!`);
     onClose();

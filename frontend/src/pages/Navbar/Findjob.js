@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import { BsBox2Heart } from "react-icons/bs";
 import { FaMapMarkerAlt, FaBuilding, FaMoneyBillWave, FaArrowRight } from "react-icons/fa";
