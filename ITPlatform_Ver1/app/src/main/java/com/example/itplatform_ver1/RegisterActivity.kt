@@ -6,10 +6,15 @@ import android.widget.RadioButton
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.itplatform_ver1.databinding.ActivityRegisterBinding
+import okhttp3.MediaType.Companion.toMediaType
+import okhttp3.*
+import org.json.JSONObject
+import java.io.IOException
 
 class RegisterActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityRegisterBinding
+    private val client = OkHttpClient()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -29,17 +34,71 @@ class RegisterActivity : AppCompatActivity() {
             }
 
             val selectedRole = findViewById<RadioButton>(selectedRoleId).text.toString()
-
-            Toast.makeText(this, "Registered as $selectedRole", Toast.LENGTH_SHORT).show()
-
-            val intent = Intent(this, LoginActivity::class.java)
-            startActivity(intent)
-            finish()
+            registerUser(firstName, lastName, email, password, selectedRole)
         }
 
         binding.tvLogin.setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }
+    }
+
+    private fun registerUser(firstName: String, lastName: String, email: String, password: String, role: String) {
+        // Create JSON object with user data
+        val jsonObject = JSONObject().apply {
+            put("firstName", firstName)
+            put("lastName", lastName)
+            put("email", email)
+            put("password", password)
+            put("role", role.lowercase())
+        }
+
+        // Create request body using the new extension function
+        val requestBody = RequestBody.create(
+            "application/json; charset=utf-8".toMediaType(),
+            jsonObject.toString()
+        )
+
+        // Build POST request
+        val request = Request.Builder()
+            .url("https://itplatform.onrender.com/api/Accounts")
+            .post(requestBody)
+            .header("Content-Type", "application/json")
+            .build()
+
+        // Execute request
+        client.newCall(request).enqueue(object : Callback {
+            override fun onFailure(call: Call, e: IOException) {
+                runOnUiThread {
+                    Toast.makeText(
+                        this@RegisterActivity,
+                        "Network error: ${e.message}",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                }
+            }
+
+            override fun onResponse(call: Call, response: Response) {
+                runOnUiThread {
+                    if (response.isSuccessful) {
+                        Toast.makeText(
+                            this@RegisterActivity,
+                            "Registration successful!",
+                            Toast.LENGTH_SHORT
+                        ).show()
+                        val intent = Intent(this@RegisterActivity, LoginActivity::class.java)
+                        startActivity(intent)
+                        finish()
+                    } else {
+                        val errorBody = response.body?.string()
+                        Toast.makeText(
+                            this@RegisterActivity,
+                            "Registration failed: ${errorBody ?: response.message}",
+                            Toast.LENGTH_LONG
+                        ).show()
+                    }
+                }
+            }
+        })
     }
 }

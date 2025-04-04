@@ -2,17 +2,23 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@id/chatFragment">
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
 
     <fragment
-        android:id="@+id/chatFragment"
-        android:name="com.example.itplatform_ver1.ChatFragment"
-        android:label="Chat">
+        android:id="@+id/nav_home"
+        android:name="com.example.itplatform_ver1.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
 
+    <fragment
+        android:id="@+id/nav_chat"
+        android:name="com.example.itplatform_ver1.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat">
         <action
             android:id="@+id/action_chatFragment_to_chatDetailFragment"
             app:destination="@id/chatDetailFragment">
-
             <argument
                 android:name="chatName"
                 app:argType="string" />
@@ -20,7 +26,14 @@
     </fragment>
 
     <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.itplatform_ver1.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
         android:id="@+id/chatDetailFragment"
         android:name="com.example.itplatform_ver1.ChatDetailFragment"
-        android:label="Chat Detail" />
+        android:label="Chat Detail"
+        tools:layout="@layout/fragment_chat_detail" />
 </navigation>
