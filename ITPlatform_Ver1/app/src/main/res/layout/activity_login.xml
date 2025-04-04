@@ -27,8 +27,7 @@
         android:inputType="textEmailAddress"
         android:backgroundTint="@color/blue_primary"
         android:padding="12dp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/peach_light" />
+        android:textColor="@color/black" />
 
     <EditText
         android:id="@+id/etPassword"
@@ -39,7 +38,6 @@
         android:backgroundTint="@color/blue_primary"
         android:padding="12dp"
         android:textColor="@color/black"
-        android:textColorHint="@color/peach_light"
         android:layout_marginTop="12dp" />
 
     <Button
